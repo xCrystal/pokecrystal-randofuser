@@ -1,10 +1,15 @@
 INCLUDE "includes.asm"
 
 
-SECTION "Evolutions and Attacks", ROMX, BANK[EVOS_ATTACKS]
+SECTION "Evolutions and Attacks", ROMX[$4000], BANK[EVOS_ATTACKS]
 
 
 INCLUDE "data/evos_attacks_pointers.asm"
+
+
+ORG: MACRO
+SECTION "ORG\@",ROMX[\2],BANK[\1]
+ENDM
 
 
 EvosAttacks::
