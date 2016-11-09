@@ -15,7 +15,7 @@ TILESETS_8                EQU $78
 
 ; data/egg_moves.o
 
-EGG_MOVES                 EQU $8
+EGG_MOVES                 EQU $75
 
 
 ; data/evos_attacks.o
