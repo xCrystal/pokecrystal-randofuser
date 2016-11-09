@@ -336,6 +336,15 @@ SlowpokeEggMoves:
 	db FUTURE_SIGHT
 	db STOMP
 	db $ff
+	
+	ORG EGG_MOVES, $4000 + 19 * (SLOWBRO + -1)
+
+SlowbroEggMoves:
+	db SAFEGUARD
+	db BELLY_DRUM
+	db FUTURE_SIGHT
+	db STOMP
+	db $ff	
 
 	ORG EGG_MOVES, $4000 + 19 * (FARFETCH_D + -1)
 
@@ -899,6 +908,15 @@ UmbreonEggMoves:
 	db FLAIL
 	db CHARM
 	db $ff
+	
+	ORG EGG_MOVES, $4000 + 19 * (SLOWKING + -1)
+
+SlowkingEggMoves:
+	db SAFEGUARD
+	db BELLY_DRUM
+	db FUTURE_SIGHT
+	db STOMP
+	db $ff		
 
 	ORG EGG_MOVES, $4000 + 19 * (MURKROW + -1)
 
