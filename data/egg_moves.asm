@@ -1,7 +1,7 @@
 INCLUDE "includes.asm"
 
 
-SECTION "Egg Moves", ROMX, BANK[EGG_MOVES]
+SECTION "Egg Moves", ROMX[$4000], BANK[EGG_MOVES]
 
 ORG: MACRO
 SECTION "ORG\@",ROMX[\2],BANK[\1]
