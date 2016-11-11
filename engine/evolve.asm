@@ -529,7 +529,7 @@ FillMoves: ; 424e1
 	ld b, a
 	ld a, [CurPartyLevel]
 	cp b
-	jp c, .done
+	jp c, .GetMove
 	ld a, [wEvolutionOldSpecies]
 	and a
 	jr z, .CheckMove
