@@ -172,6 +172,7 @@ CyndaquilPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
+	pokenamemem CYNDAQUIL, $0	
 	writetext TakeCyndaquilText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -202,6 +203,7 @@ TotodilePokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
+	pokenamemem TOTODILE, $0	
 	writetext TakeTotodileText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -230,6 +232,7 @@ ChikoritaPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
+	pokenamemem CHIKORITA, $0
 	writetext TakeChikoritaText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -865,19 +868,25 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
+	line "@"
+	text_from_ram StringBuffer3
+	text "the"
 	cont "fire #MON?"
 	done
 
 TakeTotodileText:
 	text "ELM: Do you want"
-	line "TOTODILE, the"
+	line "@"
+	text_from_ram StringBuffer3
+	text "the"
 	cont "water #MON?"
 	done
 
 TakeChikoritaText:
 	text "ELM: So, you like"
-	line "CHIKORITA, the"
+	line "@"
+	text_from_ram StringBuffer3
+	text "the"
 	cont "grass #MON?"
 	done
 
