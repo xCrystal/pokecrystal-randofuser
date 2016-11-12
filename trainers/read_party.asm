@@ -56,6 +56,7 @@ ReadTrainerParty: ; 39771
 	jr nz, .skip_name
 
 	ld a, [hli]
+	and $7f
 	ld c, a
 	ld b, 0
 	ld d, h
