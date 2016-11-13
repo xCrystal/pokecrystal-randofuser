@@ -3835,6 +3835,8 @@ CelebiEvosAttacks:
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+	
+		ORG EVOS_ATTACKS, $4000 + $31 * (CELEBI)
 
 
 INCLUDE "data/evos_attacks_pointers.asm"

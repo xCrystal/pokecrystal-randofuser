@@ -870,7 +870,7 @@ TakeCyndaquilText:
 	text "ELM: You'll take"
 	line "@"
 	text_from_ram StringBuffer3
-	text "the"
+	text ", the"
 	cont "fire #MON?"
 	done
 
@@ -878,7 +878,7 @@ TakeTotodileText:
 	text "ELM: Do you want"
 	line "@"
 	text_from_ram StringBuffer3
-	text "the"
+	text ", the"
 	cont "water #MON?"
 	done
 
@@ -886,7 +886,7 @@ TakeChikoritaText:
 	text "ELM: So, you like"
 	line "@"
 	text_from_ram StringBuffer3
-	text "the"
+	text ", the"
 	cont "grass #MON?"
 	done
 
