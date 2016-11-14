@@ -87,7 +87,13 @@ GiveOddEgg: ; 1fb4b6
 	ld [wMobileMonNicknamePointerBuffer], a
 	ld a, wOddEggName / $100
 	ld [wMobileMonNicknamePointerBuffer + 1], a
-	callba AddMobileMonToParty
+	ld a, 5
+	ld [CurPartyLevel], a
+	xor a
+	ld [MonType], a
+	ld a, [wOddEgg]
+	ld [CurPartySpecies], a
+	callba GiveEgg
 	ret
 ; 1fb546
 
