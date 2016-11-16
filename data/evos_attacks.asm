@@ -737,7 +737,6 @@ VenomothEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE
-	db 1, FORESIGHT
 	db 9, SUPERSONIC
 	db 17, CONFUSION
 	db 20, POISONPOWDER
