@@ -436,7 +436,7 @@ PKMNTrainerGroup:
 
 	; CAL (3)
 	db "CAL@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 50, MEGANIUM
@@ -540,7 +540,7 @@ BrockGroup:
 
 	; BROCK (1)
 	db "BROCK@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -561,7 +561,7 @@ MistyGroup:
 
 	; MISTY (1)
 	db "MISTY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -581,7 +581,7 @@ LtSurgeGroup:
 
 	; LT_SURGE (1)
 	db "LT.SURGE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -668,7 +668,7 @@ ErikaGroup:
 
 	; ERIKA (1)
 	db "ERIKA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -805,7 +805,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (11)
 	db "OWEN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, GROWLITHE
@@ -816,7 +816,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (12)
 	db "JASON@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 33, SANDSLASH
@@ -868,7 +868,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (2)
 	db "KIPP@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 27, VOLTORB
@@ -893,7 +893,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (4)
 	db "JOHNNY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, BELLSPROUT
@@ -906,7 +906,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (5)
 	db "DANNY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, JYNX
@@ -919,7 +919,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (6)
 	db "TOMMY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, XATU
@@ -931,7 +931,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (7)
 	db "DUDLEY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, ODDISH
@@ -942,7 +942,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (8)
 	db "JOE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 33, TANGELA
@@ -954,7 +954,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (9)
 	db "BILLY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 27, PARAS
@@ -979,7 +979,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (11)
 	db "NATE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, LEDIAN
@@ -991,7 +991,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (12)
 	db "RICKY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, AIPOM
@@ -1261,7 +1261,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (9)
 	db "ROY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, FEAROW
@@ -1273,7 +1273,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (10)
 	db "BORIS@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, DODUO
@@ -1286,7 +1286,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (11)
 	db "BOB@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, NOCTOWL
@@ -1332,7 +1332,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (15)
 	db "PERRY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, FARFETCH_D
@@ -1343,7 +1343,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (16)
 	db "BRET@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, PIDGEOTTO
@@ -1420,7 +1420,7 @@ LassGroup:
 
 	; LASS (3)
 	db "ALICE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, GLOOM
@@ -1456,7 +1456,7 @@ LassGroup:
 
 	; LASS (6)
 	db "LINDA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, BULBASAUR
@@ -1469,7 +1469,7 @@ LassGroup:
 
 	; LASS (7)
 	db "LAURA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, GLOOM
@@ -1482,7 +1482,7 @@ LassGroup:
 
 	; LASS (8)
 	db "SHANNON@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, PARAS
@@ -1495,7 +1495,7 @@ LassGroup:
 
 	; LASS (9)
 	db "MICHELLE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, SKIPLOOM
@@ -1520,7 +1520,7 @@ LassGroup:
 
 	; LASS (11)
 	db "ELLEN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, WIGGLYTUFF
@@ -1608,7 +1608,7 @@ JanineGroup:
 
 	; JANINE (1)
 	db "JANINE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -1817,7 +1817,7 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (16)
 	db "SEAN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, FLAREON
@@ -1830,7 +1830,7 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (17)
 	db "KEVIN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 38, RHYHORN
@@ -2030,7 +2030,7 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (13)
 	db "CAROL@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, ELECTRODE
@@ -2043,7 +2043,7 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (14)
 	db "QUINN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 38, IVYSAUR
@@ -2204,7 +2204,7 @@ BeautyGroup:
 
 	; BEAUTY (6)
 	db "CASSIE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, VILEPLUME
@@ -2295,7 +2295,7 @@ BeautyGroup:
 
 	; BEAUTY (14)
 	db "JULIA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, PARAS
@@ -2427,7 +2427,7 @@ PokemaniacGroup:
 
 	; POKEMANIAC (8)
 	db "ETHAN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, RHYHORN
@@ -2889,7 +2889,7 @@ GruntMGroup:
 
 	; GRUNTM (31)
 	db "GRUNT@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, GOLBAT
@@ -2918,7 +2918,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (2)
 	db "EDWARD@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 33, PERSIAN
@@ -2929,7 +2929,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (3)
 	db "GREGORY@"
-	db 0 ; normal
+	db $0 ; normal
 
 	; party
 	db 37, PIKACHU
@@ -2997,7 +2997,7 @@ TeacherGroup:
 
 	; TEACHER (1)
 	db "COLETTE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 36, CLEFAIRY
@@ -3008,7 +3008,7 @@ TeacherGroup:
 
 	; TEACHER (2)
 	db "HILLARY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, AIPOM
@@ -3020,7 +3020,7 @@ TeacherGroup:
 
 	; TEACHER (3)
 	db "SHIRLEY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, JIGGLYPUFF
@@ -3037,7 +3037,7 @@ SabrinaGroup:
 
 	; SABRINA (1)
 	db "SABRINA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -3068,7 +3068,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (2)
 	db "ROB@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, BEEDRILL
@@ -3080,7 +3080,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (3)
 	db "ED@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, BEEDRILL
@@ -3154,7 +3154,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (9)
 	db "KEN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, ARIADOS
@@ -3194,7 +3194,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (12)
 	db "DOUG@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, ARIADOS
@@ -3320,7 +3320,7 @@ FisherGroup:
 
 	; FISHER (3)
 	db "ARNOLD@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, TENTACRUEL
@@ -3331,7 +3331,7 @@ FisherGroup:
 
 	; FISHER (4)
 	db "KYLE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, SEAKING
@@ -3431,7 +3431,7 @@ FisherGroup:
 
 	; FISHER (12)
 	db "JONAH@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 25, SHELLDER
@@ -3445,7 +3445,7 @@ FisherGroup:
 
 	; FISHER (13)
 	db "MARTIN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, REMORAID
@@ -3457,7 +3457,7 @@ FisherGroup:
 
 	; FISHER (14)
 	db "STEPHEN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 25, MAGIKARP
@@ -3471,7 +3471,7 @@ FisherGroup:
 
 	; FISHER (15)
 	db "BARNEY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, GYARADOS
@@ -3613,7 +3613,7 @@ SwimmerMGroup:
 
 	; SWIMMERM (1)
 	db "HAROLD@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, REMORAID
@@ -3777,7 +3777,7 @@ SwimmerMGroup:
 
 	; SWIMMERM (14)
 	db "JEROME@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 26, SEADRA
@@ -3791,7 +3791,7 @@ SwimmerMGroup:
 
 	; SWIMMERM (15)
 	db "TUCKER@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, SHELLDER
@@ -3816,7 +3816,7 @@ SwimmerMGroup:
 
 	; SWIMMERM (17)
 	db "CAMERON@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, MARILL
@@ -3827,7 +3827,7 @@ SwimmerMGroup:
 
 	; SWIMMERM (18)
 	db "SETH@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, QUAGSIRE
@@ -3866,7 +3866,7 @@ SwimmerMGroup:
 
 	; SWIMMERM (21)
 	db "PARKER@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, HORSEA
@@ -4012,7 +4012,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (12)
 	db "DAWN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, SEAKING
@@ -4034,7 +4034,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (14)
 	db "NICOLE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, MARILL
@@ -4047,7 +4047,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (15)
 	db "LORI@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, STARMIE
@@ -4070,7 +4070,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (17)
 	db "NIKKI@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, SEEL
@@ -4084,7 +4084,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (18)
 	db "DIANA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 37, GOLDUCK
@@ -4095,7 +4095,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (19)
 	db "BRIANA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, SEAKING
@@ -4174,7 +4174,7 @@ SailorGroup:
 
 	; SAILOR (6)
 	db "JEFF@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, RATICATE
@@ -4186,7 +4186,7 @@ SailorGroup:
 
 	; SAILOR (7)
 	db "GARRETT@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, KINGLER
@@ -4197,7 +4197,7 @@ SailorGroup:
 
 	; SAILOR (8)
 	db "KENNETH@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, MACHOP
@@ -4211,7 +4211,7 @@ SailorGroup:
 
 	; SAILOR (9)
 	db "STANLY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, MACHOP
@@ -4361,7 +4361,7 @@ SuperNerdGroup:
 
 	; SUPER_NERD (8)
 	db "PAT@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 36, PORYGON
@@ -4372,7 +4372,7 @@ SuperNerdGroup:
 
 	; SUPER_NERD (9)
 	db "SHAWN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, MAGNEMITE
@@ -4451,7 +4451,7 @@ Rival2Group:
 
 	; RIVAL2 (1)
 	db "?@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -4467,7 +4467,7 @@ Rival2Group:
 
 	; RIVAL2 (2)
 	db "?@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -4483,7 +4483,7 @@ Rival2Group:
 
 	; RIVAL2 (3)
 	db "?@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -4499,7 +4499,7 @@ Rival2Group:
 
 	; RIVAL2 (4)
 	db "?@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -4515,7 +4515,7 @@ Rival2Group:
 
 	; RIVAL2 (5)
 	db "?@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -4531,7 +4531,7 @@ Rival2Group:
 
 	; RIVAL2 (6)
 	db "?@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -4553,7 +4553,7 @@ GuitaristGroup:
 
 	; GUITARIST (1)
 	db "CLYDE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, ELECTABUZZ
@@ -4564,7 +4564,7 @@ GuitaristGroup:
 
 	; GUITARIST (2)
 	db "VINCENT@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 27, MAGNEMITE
@@ -4750,7 +4750,7 @@ HikerGroup:
 
 	; HIKER (14)
 	db "NOLAND@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, SANDSLASH
@@ -4774,7 +4774,7 @@ HikerGroup:
 
 	; HIKER (16)
 	db "KENNY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 27, SANDSLASH
@@ -4788,7 +4788,7 @@ HikerGroup:
 
 	; HIKER (17)
 	db "JIM@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, MACHAMP
@@ -4929,7 +4929,7 @@ BikerGroup:
 
 	; BIKER (6)
 	db "CHARLES@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, KOFFING
@@ -4942,7 +4942,7 @@ BikerGroup:
 
 	; BIKER (7)
 	db "RILEY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, WEEZING
@@ -4953,7 +4953,7 @@ BikerGroup:
 
 	; BIKER (8)
 	db "JOEL@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, MAGMAR
@@ -4965,7 +4965,7 @@ BikerGroup:
 
 	; BIKER (9)
 	db "GLENN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, KOFFING
@@ -4984,7 +4984,7 @@ BlaineGroup:
 
 	; BLAINE (1)
 	db "BLAINE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
@@ -5028,7 +5028,7 @@ BurglarGroup:
 
 	; BURGLAR (3)
 	db "COREY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 25, KOFFING
@@ -5132,7 +5132,7 @@ FirebreatherGroup:
 
 	; FIREBREATHER (8)
 	db "LYLE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 28, KOFFING
@@ -5165,7 +5165,7 @@ JugglerGroup:
 
 	; JUGGLER (2)
 	db "FRITZ@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, MR__MIME
@@ -5178,7 +5178,7 @@ JugglerGroup:
 
 	; JUGGLER (3)
 	db "HORTON@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 33, ELECTRODE
@@ -5338,7 +5338,7 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (9)
 	db "WAI@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, MACHOKE
@@ -5427,7 +5427,7 @@ PsychicGroup:
 
 	; PSYCHIC_T (2)
 	db "FRANKLIN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 37, KADABRA
@@ -5438,7 +5438,7 @@ PsychicGroup:
 
 	; PSYCHIC_T (3)
 	db "HERMAN@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 30, EXEGGCUTE
@@ -5451,7 +5451,7 @@ PsychicGroup:
 
 	; PSYCHIC_T (4)
 	db "FIDEL@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, XATU
@@ -5534,7 +5534,7 @@ PsychicGroup:
 
 	; PSYCHIC_T (11)
 	db "JARED@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 32, MR__MIME
@@ -5547,7 +5547,7 @@ PsychicGroup:
 
 	; PSYCHIC_T (12)
 	db "RODNEY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 29, DROWZEE
@@ -5611,7 +5611,7 @@ PicnickerGroup:
 
 	; PICNICKER (5)
 	db "CINDY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 36, NIDOQUEEN
@@ -5645,7 +5645,7 @@ PicnickerGroup:
 
 	; PICNICKER (8)
 	db "DEBRA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 33, SEAKING
@@ -5777,7 +5777,7 @@ PicnickerGroup:
 
 	; PICNICKER (19)
 	db "TANYA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 37, EXEGGUTOR
@@ -5928,7 +5928,7 @@ CamperGroup:
 
 	; CAMPER (5)
 	db "BARRY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 36, NIDOKING
@@ -5939,7 +5939,7 @@ CamperGroup:
 
 	; CAMPER (6)
 	db "LLOYD@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, NIDOKING
@@ -6090,7 +6090,7 @@ CamperGroup:
 
 	; CAMPER (18)
 	db "JERRY@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 37, SANDSLASH
@@ -6405,7 +6405,7 @@ MediumGroup:
 
 	; MEDIUM (6)
 	db "REBECCA@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, DROWZEE
@@ -6417,7 +6417,7 @@ MediumGroup:
 
 	; MEDIUM (7)
 	db "DORIS@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 34, SLOWPOKE
@@ -6501,7 +6501,7 @@ PokefanMGroup:
 
 	; POKEFANM (3)
 	db "ROBERT@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 33, QUAGSIRE, BERRY
@@ -6512,7 +6512,7 @@ PokefanMGroup:
 
 	; POKEFANM (4)
 	db "JOSHUA@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 23, PIKACHU, BERRY
@@ -6528,7 +6528,7 @@ PokefanMGroup:
 
 	; POKEFANM (5)
 	db "CARTER@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 29, BULBASAUR, BERRY
@@ -6541,7 +6541,7 @@ PokefanMGroup:
 
 	; POKEFANM (6)
 	db "TREVOR@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 33, PSYDUCK, BERRY
@@ -6563,7 +6563,7 @@ PokefanMGroup:
 
 	; POKEFANM (8)
 	db "JEREMY@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 28, MEOWTH, BERRY
@@ -6576,7 +6576,7 @@ PokefanMGroup:
 
 	; POKEFANM (9)
 	db "COLIN@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 32, DELIBIRD, BERRY
@@ -6609,7 +6609,7 @@ PokefanMGroup:
 
 	; POKEFANM (12)
 	db "ALEX@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 29, NIDOKING, BERRY
@@ -6772,7 +6772,7 @@ TwinsGroup:
 
 	; TWINS (5)
 	db "JO & ZOE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, VICTREEBEL
@@ -6784,7 +6784,7 @@ TwinsGroup:
 
 	; TWINS (6)
 	db "JO & ZOE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 35, VILEPLUME
@@ -6796,7 +6796,7 @@ TwinsGroup:
 
 	; TWINS (7)
 	db "MEG & PEG@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, TEDDIURSA
@@ -6808,7 +6808,7 @@ TwinsGroup:
 
 	; TWINS (8)
 	db "MEG & PEG@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 	db 31, PHANPY
@@ -6894,7 +6894,7 @@ PokefanFGroup:
 
 	; POKEFANF (5)
 	db "GEORGIA@"
-	db 2 ; item
+	db $82 ; item
 
 	; party
 	db 23, SENTRET, BERRY
@@ -6948,7 +6948,7 @@ BlueGroup:
 
 	; BLUE (1)
 	db "BLUE@"
-	db 0 ; normal
+	db $80 ; normal
 
 	; party
 
