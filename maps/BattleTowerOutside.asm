@@ -136,8 +136,8 @@ BattleTowerOutside_MapEventHeader:
 	db 4
 	warp_def $15, $8, 3, ROUTE_40_BATTLE_TOWER_GATE
 	warp_def $15, $9, 4, ROUTE_40_BATTLE_TOWER_GATE
-	warp_def $9, $8, 1, BATTLE_TOWER_1F
-	warp_def $9, $9, 2, BATTLE_TOWER_1F
+	warp_def $90, $80, 1, BATTLE_TOWER_1F
+	warp_def $90, $90, 2, BATTLE_TOWER_1F
 
 .XYTriggers:
 	db 0
