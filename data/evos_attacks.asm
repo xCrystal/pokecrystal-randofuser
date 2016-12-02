@@ -3628,8 +3628,8 @@ SmoochumEvosAttacks:
 ElekidEvosAttacks:
 	db EVOLVE_LEVEL, 30, ELECTABUZZ
 	db 0 ; no more evolutions
-	db 1, QUICK_ATTACK
 	db 1, LEER
+	db 1, QUICK_ATTACK
 	db 9, THUNDERPUNCH
 	db 17, LIGHT_SCREEN
 	db 25, SWIFT
