@@ -34,7 +34,7 @@
 	db 2 percent ; encounter rate
 	db 15, SLOWPOKE
 	db 20, SLOWPOKE
-	db 20, SLOWBRO
+	db 21, SLOWBRO
 
 	map ILEX_FOREST
 	db 2 percent ; encounter rate
@@ -74,9 +74,9 @@
 
 	map WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
-	db 20, HORSEA
 	db 20, TENTACRUEL
 	db 20, SEADRA
+	db 25, OMANYTE
 
 	map SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate

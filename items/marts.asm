@@ -193,7 +193,7 @@ Mart13: ; 16153
 ; 1615e
 
 Mart14: ; 1615e
-	db 10 ; # items
+	db 14 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db POTION
@@ -204,6 +204,10 @@ Mart14: ; 1615e
 	db BURN_HEAL
 	db ICE_HEAL
 	db REVIVE
+	db WATER_STONE
+	db FIRE_STONE
+	db LEAF_STONE
+	db THUNDERSTONE
 	db $ff
 ; 1616a
 

@@ -65,13 +65,13 @@ FishGroups: ; 92488
 .Pond_Good: ; 9254f
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     POLIWAG,    20
-	db  90 percent + 1, POLIWAG,    20
+	db  90 percent + 1, GOLDEEN,    20
 	db 100 percent,     0, 6
 .Pond_Super: ; 9255b
 	db  40 percent,     POLIWAG,    40
 	db  70 percent,     0, 7
 	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     POLIWAG,    40
+	db 100 percent,     REMORAID,   40
 
 .Dratini_Old: ; 92567
 	db  70 percent + 1, MAGIKARP,   10
@@ -206,7 +206,7 @@ TimeFishGroups: ; 9266f
 	db SHELLDER,   40,  SHELLDER,   40
 	db GOLDEEN,    20,  GOLDEEN,    20
 	db GOLDEEN,    40,  GOLDEEN,    40
-	db POLIWAG,    20,  POLIWAG,    20
+	db REMORAID,   20,  REMORAID,   20
 	db POLIWAG,    40,  POLIWAG,    40
 	db DRATINI,    20,  DRATINI,    20
 	db DRATINI,    40,  DRATINI,    40

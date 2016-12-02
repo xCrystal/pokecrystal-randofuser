@@ -98,9 +98,9 @@
 
 	map ROUTE_28
 	db 2 percent ; encounter rate
-	db 40, POLIWAG
-	db 35, POLIWAG
-	db 40, POLIWHIRL
+	db 40, POLITOED
+	db 40, POLIWRATH
+	db 41, POLIWRATH
 
 	map PALLET_TOWN
 	db 6 percent ; encounter rate
