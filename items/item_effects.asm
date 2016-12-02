@@ -456,8 +456,8 @@ ParkBall: ; e8a2
 	jr .not_ditto
 
 .ditto
-	ld a, DITTO
-	ld [TempEnemyMonSpecies], a
+;	ld a, DITTO
+;	ld [TempEnemyMonSpecies], a
 	jr .load_data
 
 .not_ditto
