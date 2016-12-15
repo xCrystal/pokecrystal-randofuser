@@ -88,7 +88,7 @@
 	db 6 percent ; encounter rate
 	db 30, TENTACRUEL
 	db 25, TENTACOOL
-	db 30, SQUIRTLE
+	db 30, TOTODILE
 
 	map ROUTE_27
 	db 6 percent ; encounter rate

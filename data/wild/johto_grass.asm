@@ -1438,17 +1438,17 @@
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 13, TAUROS
-	db 13, MILTANK
-	db 13, MILTANK
+	db 15, TAUROS
+	db 15, MILTANK
+	db 15, MILTANK
 	; day
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 13, TAUROS
-	db 13, MILTANK
-	db 13, MILTANK
+	db 15, TAUROS
+	db 15, MILTANK
+	db 15, MILTANK
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
@@ -1465,25 +1465,25 @@
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
+	db 15, BULBASAUR
+	db 15, CHARMANDER
+	db 15, CHARMANDER
 	; day
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
+	db 15, BULBASAUR
+	db 15, CHARMANDER
+	db 15, CHARMANDER
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 15, BULBASAUR
+	db 15, CHARMANDER
+	db 15, CHARMANDER
 
 	map ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

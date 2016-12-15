@@ -154,7 +154,7 @@
 	db 4 percent ; encounter rate
 	db 20, GOLDEEN
 	db 15, GOLDEEN
-	db 20, SEAKING
+	db 20, SQUIRTLE
 
 	map ROUTE_43
 	db 2 percent ; encounter rate

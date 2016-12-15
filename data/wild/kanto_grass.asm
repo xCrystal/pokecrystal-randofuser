@@ -736,25 +736,25 @@
 	db 28, SANDSLASH
 	db 32, PONYTA
 	db 30, ARBOK
-	db 30, BULBASAUR
-	db 30, CHARMANDER
-	db 30, CHARMANDER
+	db 30, CHIKORITA
+	db 30, CYNDAQUIL
+	db 30, CYNDAQUIL
 	; day
 	db 28, DODUO
 	db 28, SANDSLASH
 	db 32, PONYTA
 	db 30, ARBOK
-	db 30, BULBASAUR
-	db 30, CHARMANDER
-	db 30, CHARMANDER
+	db 30, CHIKORITA
+	db 30, CYNDAQUIL
+	db 30, CYNDAQUIL
 	; nite
 	db 28, NOCTOWL
 	db 28, RATICATE
 	db 32, NOCTOWL
 	db 30, QUAGSIRE
-	db 30, BULBASAUR
-	db 30, CHARMANDER
-	db 30, CHARMANDER
+	db 30, CHIKORITA
+	db 30, CYNDAQUIL
+	db 30, CYNDAQUIL
 
 	map ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
